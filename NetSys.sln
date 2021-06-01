@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Main", "Net.Main\Net.Main.csproj", "{27713F85-BF32-4965-A2B0-5AFDE785BDCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Main", "Net.Main\Net.Main.csproj", "{27713F85-BF32-4965-A2B0-5AFDE785BDCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Data", "Net.Data\Net.Data.csproj", "{C897DCE8-5B96-4ECF-B36C-5B0B6C55DA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Data", "Net.Data\Net.Data.csproj", "{C897DCE8-5B96-4ECF-B36C-5B0B6C55DA8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A9217C3-398C-42A5-A4A7-418193D1380A} = {8A9217C3-398C-42A5-A4A7-418193D1380A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Entities", "Net.Entities\Net.Entities.csproj", "{8A9217C3-398C-42A5-A4A7-418193D1380A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Entities", "Net.Entities\Net.Entities.csproj", "{8A9217C3-398C-42A5-A4A7-418193D1380A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

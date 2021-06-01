@@ -6,7 +6,7 @@ namespace Net.Entities.Entity
     /// <summary>
     /// قعطعات مصرفی درخواست تعمیرات
     /// </summary>
-    public  class ConsumableParts 
+    public  class ConsumablePart 
     {
         [Key]
         public long ID { get; set; }
