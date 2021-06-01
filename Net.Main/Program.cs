@@ -17,7 +17,9 @@ namespace Net.Main
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var container = new StructureMap();
+
+            Application.Run(new LoginForm());
         }
     }
 }

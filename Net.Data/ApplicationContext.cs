@@ -1,14 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Net.Entities.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Net.Data
 {
-  public class ApplicationContext  : DbContext
+    public class ApplicationContext  : DbContext
 
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
