@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Net.Entities.Entity
 {
+    /// <summary>
+    /// کدینگ ماشین آلات
+    /// </summary>
    public class Coding : BaseClass<long>
     {
         public Coding()

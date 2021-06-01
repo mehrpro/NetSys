@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Net.Entities.Entity
 {
+    /// <summary>
+    /// کاربران
+    /// </summary>
     public class ApplicationUser : BaseClass<int>
     {
         public ApplicationUser()

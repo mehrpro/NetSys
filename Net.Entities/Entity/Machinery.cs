@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace Net.Entities.Entity
 {
+
+    /// <summary>
+    /// لیست ماشین آلات
+    /// </summary>
     public class Machinery : BaseClass<int>
     {
         public Machinery()

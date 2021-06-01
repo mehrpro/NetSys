@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Net.Entities.Entity
 {
-  public  class Applicant: BaseClass<int>
+    /// <summary>
+    /// واحد درخواست کننده
+    /// </summary>
+    public  class Applicant: BaseClass<int>
     {
+
         public Applicant()
         {
             ID = new int();
