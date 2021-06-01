@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Net.Entities.Entity
 {
-   public class Group : BaseClass<int>
+    public class Group : BaseClass<int>
     {
         public Group()
         {
@@ -26,7 +23,6 @@ namespace Net.Entities.Entity
         [ForeignKey("CompanyID_FK")]
         public Company Company { get; set; }
 
-
         [Required]        
         public byte GroupIndex { get; set; }
 
@@ -37,7 +33,6 @@ namespace Net.Entities.Entity
         [Required]
         [MaxLength(250)]
         public string Description { get; set; }
-
 
 
         public virtual ICollection<SubGroup> SubGroups { get; set; }

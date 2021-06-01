@@ -33,7 +33,10 @@ namespace Net.Entities.Entity
         [ForeignKey("SubGroupID_FK")]
         public SubGroup SubGroup { get; set; }
 
-
+        [Required]
+        public int UserID_FK { get; set; }
+        [ForeignKey("UserID_FK")]
+        public ApplicationUser ApplicationUser { get; set; }
 
         [Required]
         public short CodeIndex { get; set; }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Net.Entities.Entity
@@ -11,6 +12,10 @@ namespace Net.Entities.Entity
             Registered = DateTime.Now;
             IsActive = true;
             IsDelete = false;
+
+
+            RequestRepairs = new HashSet<RequestRepair>();
+
         }
 
 
@@ -31,5 +36,9 @@ namespace Net.Entities.Entity
 
         [MaxLength(11)]
         public string PhoneNumber { get; set; }
+
+
+
+        public virtual ICollection<RequestRepair> RequestRepairs { get; set; }
     }
 }
